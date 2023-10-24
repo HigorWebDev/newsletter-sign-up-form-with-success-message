@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,100;1,200&family=Montserrat:wght@400;600&family=Overpass:ital,wght@0,100;1,400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <div class="mainContainer ">
+    <h1 class="titleUpdtate">Stay updated!</h1>
+    <p class="paraUpdate">Join 60,000+ product managers receiving monthly updates on:</p>
+    <section>
+      <p class="para1"><img src="assets/images/icon-list.svg" class="imgPara">Product discovery and building what matters</p>
+      <p class="para2"><img src="assets/images/icon-list.svg" class="imgPara">Measuring to ensure updates are a success</p>
+      <p class="para3"><img src="assets/images/icon-list.svg"class="imgPara" >And much more!</p>
+    </section>
+    <form id="form">
+      <label for="email">Email address</label>
+      <input type="email" name="email" id="email" >
+      <span class="error hide">Valid email required</span>
+      <button type="submit">Subscribe to monthly newsletter</button>
+    </form>
+   
+    <section class="imgIlustration">
+       <img src="assets/images/illustration-sign-up-desktop.svg" class="img">
+    </section>
+  </div>
+  <div class="thankContainer hide">
+    <img src="assets/images/icon-success.svg" class="thanksImg">
+    <section class="textArea">
+       <h1 class="titleThank">Thanks for subscribing!</h1>
+       <p class="paraThanks">
+        A confirmation email has been sent to <span class="emailSubmit" style="color: red;">.</span> 
+        Please open it and click the button inside to confirm your subscription.
+       </p>
+       <button class="desmissBtn">Desmiss message</button>
+    </section>
+  </div>
+</body>
+</html>

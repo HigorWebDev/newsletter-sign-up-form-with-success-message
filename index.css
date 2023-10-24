@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 700;
+}
+body {
+  background-color: #36384d;
+  overflow: hidden;
+}
+.mainContainer {
+  display: flex;
+  position: relative;
+  margin-left: 25%;
+  width: 50%;
+  height: 10%;
+  background-color: white;
+  margin-top: 7rem;
+  border-radius: 2rem;
+}
+.titleUpdtate {
+  margin-top: 9%;
+  margin-left: 5%;
+  font-size: 3rem;
+  text-wrap: nowrap;
+}
+.paraUpdate {
+  padding: 15px 9px 10px 10px;
+  margin-left: 5%;
+  font-size: 16px;
+  position: absolute;
+  top: 10rem;
+}
+
+.para1 {
+  margin-right: 25.6%;
+  margin-top: 1rem;
+  position: absolute;
+  top: 14rem;
+  left: 4rem;
+}
+.para2 {
+  margin-left: 28.2%;
+  margin-top: 2rem;
+  position: absolute;
+  top: 16rem;
+  right: 35.4rem;
+  text-wrap: nowrap;
+}
+.para3 {
+  margin-left: 28.2%;
+  margin-top: 2rem;
+  position: absolute;
+  top: 19rem;
+  right: 47.3rem;
+  text-wrap: nowrap;
+}
+.submitBtn {
+  height: 4rem;
+
+}
+.img {
+  margin-right: 18rem;
+  margin-left: 12rem;
+  padding: 10px 10px 10px 5px;
+}
+#form input{
+  top: 25.9rem;
+  right: 36rem;
+  height: 3rem;
+  position: absolute;
+  border-radius: 1rem;
+  width: 20rem;
+  border-color: black;
+  text-align: left;
+  padding:5px 15px ;
+}
+
+ #form label{
+  text-wrap: nowrap;
+  position: absolute;
+  top: 24rem;
+  right: 51rem;
+  font-size: 0.8rem;
+}
+#form button {
+  position: absolute;
+  top: 30.5rem;
+  left: 3.6rem;
+  height: 3rem;
+  padding: 5px 70px 5px 70px;
+  border-color: transparent;
+  border-radius: 1rem;
+  background-color: #232742;
+  color: white;
+  cursor: pointer;
+}
+#form button:hover{
+  background-color: #fe5572;
+  color: white;
+}
+
+.thankContainer {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 2rem;
+  background-color: white;
+  position: relative;
+  margin-left: 70vh;
+  margin-top: 18vh;
+}
+.thanksImg{
+ padding: 40px 70px 10px 70px;
+}
+.paraThanks{
+ padding: 10px 70px 10px 70px;
+}
+.titleThank{
+  padding: 10px 70px 10px 70px;
+  text-wrap: wrap;
+  font-size: 3rem;
+}
+.thankContainer button{
+  position: absolute;
+  top: 23rem;
+  left: 4rem;
+  padding: 10px 120px 10px 120px;
+  background-color: #232742;
+  height: 3rem;
+  border-radius: 0.4rem;
+  color: white;
+  border-color: transparent;
+  cursor: pointer;
+}
+.thankContainer button:hover{
+ background-color: #fe5572;
+ color: white;
+}
+.hide{
+  display: none;
+}
+.error{
+  position: absolute;
+  top: 24rem;
+  right: 36rem;
+  font-size: 0.8rem;
+}
+
